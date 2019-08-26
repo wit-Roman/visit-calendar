@@ -29,8 +29,8 @@ class Data {
         return new Promise((resolve, reject) => {
             this.mysqlConn = mysql.createConnection({
                 host: "localhost",
-                user: "wit",
-                password: "rerevfhbzdb",
+                user: "",
+                password: "",
                 database : "cal",
                 multipleStatements: true
             })
