@@ -3,9 +3,9 @@ exports.SQLoperation = function (SQLquery) {
         const mysql = require('mysql');
         const mysqlConn = mysql.createConnection({
             host: "localhost",
-            user: "wit",
-            password: "rerevfhbzdb",
-            database : "cal"
+            user: "",
+            password: "",
+            database : ""
         });
         mysqlConn.connect();
         mysqlConn.query(SQLquery, (error,rows) => {
