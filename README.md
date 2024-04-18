@@ -1,3 +1,3 @@
 # visit-calendar
-Calendar date-fns,nextjs,redux,mysql
-https://vkapp.apps-web.xyz
+Calendar nextjs,redux,date-fns,mysql
+
